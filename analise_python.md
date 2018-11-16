@@ -1,4 +1,4 @@
-﻿#![ ](https://panda.ime.usp.br/aulasPython/static/aulasPython/_images/python-logo.png "Python")
+﻿#![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/python-logo.png "Python")
 
 **A linguagem Python**
 
@@ -37,9 +37,19 @@ Após coleta dos twitters, resolvi gravar um banco de dados utilizando nó `Data
 
 **Processando os dados**
 
-Para o processamento e tratamento de textos, iremos usar o termos mais frequentes e exibí-los em uma Nuvem de palavras. Neste processo, o nó `Ponctuation Erasure` remove todos os caracteres de pontuação do meu saco de palavras (linhas obtidas de cada twitter). O `Stop Word Filter` é o responsável por remover todos os termos do documento de entrada que correspondem com termos de uma lista (biblioteca de termos, preposições, no meu caso específico já utilizei a padrão do Knime). Com o `Row Filter`, foi excluído o próprio termo Python apenas para ele não polir a nuvem. O `Case Converter` transformou todos os termos em minúsculo. Por fim, o `Bag of Words Creator` separa em linhas cada um dos termos para a devida ação do nó `TF` que é quem verificar a frequência de cada palavra para que seja montada a nuvem.
+Para o processamento e tratamento de textos, iremos usar o termos mais frequentes e exibí-los em uma Nuvem de palavras. Neste processo, o nó `Ponctuation Erasure` remove todos os caracteres de pontuação do meu saco de palavras (linhas obtidas de cada twitter). 
+O `Stop Word Filter` é o responsável por remover todos os termos do documento de entrada que correspondem com termos de uma lista (biblioteca de termos, preposições, no meu caso específico já utilizei a padrão do Knime). 
+Com o `Row Filter`, foi excluído o próprio termo Python apenas para ele não polir a nuvem. 
+O `Case Converter` transformou todos os termos em minúsculo. 
+Por fim, o `Bag of Words Creator` separa em linhas cada um dos termos para a devida ação do nó `TF` que é quem verificar a frequência de cada palavra para que seja montada a nuvem. 
+Utilizei também o `Role Engine` e o `Color Manager` para alterar um pouco o visual
+
+![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/tag_nuvem.png "twitter_cloud_process")
+
 
 **Cloud Tag**
+
+Segue a nuvem gerada a partir do processamento.
 
 ![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/TagCloudTwitter.png "twitter_cloud_tag")
 
