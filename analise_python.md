@@ -1,4 +1,4 @@
-#![ ](https://panda.ime.usp.br/aulasPython/static/aulasPython/_images/python-logo.png "Python")
+﻿#![ ](https://panda.ime.usp.br/aulasPython/static/aulasPython/_images/python-logo.png "Python")
 
 **A linguagem Python**
 
@@ -23,17 +23,17 @@ Para o estudo vamos utilizar o sotware de mineração de dados KNIME. Uma ferram
 A fonte de dados utilizada é o site https://twitter.com/, e será acessado pelo `Twitter API Connector`
 Aqui é onde usamos o token para autenticação citado nos requisitos
 
-![ ](https://github.com/alancarlosilva/Ciencias_De_Dados_Big_Data/blob/master/RI/RI_Trabalho/Knime_Twitter.png  "Twitter_API")
+![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/Acessando_o_twitter.png  "Twitter_API")
 
 Nessa etapa, o nó `Twitter Search` busca os dados do Twiter de acordo com a minha chave de busca, nesse caso específico busquei pela chave "python  since:2015-01-01". Porque a ideia era trazer todos os twits contendo a palavra python desde 2015. Porém esse conector tem alguns limitadores e não traz todos os twitters de fato.
 
-![ ](https://github.com/alancarlosilva/Ciencias_De_Dados_Big_Data/blob/master/RI/RI_Trabalho/Config_twitter_streaming.png  "Twitter_Config")
+![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/tela_search.png  "Twitter_Config")
 ***
 **Criando Banco de Dados Local**
 
 Após coleta dos twitters, resolvi gravar um banco de dados utilizando nó `Database Writer` e `Mysql Connector`. Resolvi gravar no banco para não ter que fazer requisições repetidas e otimizar as consultas aos dados. 
 
-![ ](https://github.com/alancarlosilva/Ciencias_De_Dados_Big_Data/blob/master/RI/RI_Trabalho/twitter_bd.png  "twitter_bd")
+![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/banco.png  "twitter_bd")
 
 **Processando os dados**
 
@@ -41,14 +41,14 @@ Para o processamento e tratamento de textos, iremos usar o termos mais frequente
 
 **Cloud Tag**
 
-![ ](https://github.com/alancarlosilva/Ciencias_De_Dados_Big_Data/blob/master/RI/RI_Trabalho/twitter_2.png "twitter_cloud_tag")
+![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/TagCloudTwitter.png "twitter_cloud_tag")
 
 **Evolução de posts - twitters**
 
 Para gerar alguns insights estatísticos utilizei o Google Sheets. Como eu tinha salvo os tweets em uma base de dados Mysql foi possível acessar essa base realizar alguns estudos sobre a base. Um estudo interessante que fiz é da porcentagem de Tweets por país. Se notarmos bem no gráfico os dois países em destaque são Estados Unidos e Australia. A australia aparece aqui porque Python também é uma espécie de cobra muito conhecida por lá e alguns tweets coletados eram referentes a serpente.
 
 
-![ ]( https://github.com/alancarlosilva/Ciencias_De_Dados_Big_Data/blob/master/RI/RI_Trabalho/coluna_time.PNG "twitter_coluna")
+![ ]( https://github.com/ggdcdevel/TraballhoR1/blob/master/tweet.png "twitter_coluna")
 
 Foquei o trabalho na aplicação das técnicas aprendidas e não no resultado da pesquisa. O knime é uma  a ferramenta muito interessante e intuitiva e possui muito material para pesquisar na internet, assim como o Python. Os principal desafio encontrado foi justamente a ideia do que pesquisar.
 
