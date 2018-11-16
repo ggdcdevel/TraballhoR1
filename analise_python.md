@@ -1,6 +1,6 @@
 #![ ](https://panda.ime.usp.br/aulasPython/static/aulasPython/_images/python-logo.png "Python")
 
-** A linguagem Python **
+**A linguagem Python**
 
 O Python é uma das linguagens de programação mais populares da atualidade. A linguagem tem se destacado nos últimos anos com bibliotecas robustas de data science e é apoiada por uma comunidade gigante e bastante participativa que busca sempre a evolução da linguagem.
 Como um apaixonado por Python resolvi fazer o trabalho dando uma vasculhada sobre o que as pessoas mais andam falando a respeito do Python
