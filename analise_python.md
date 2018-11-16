@@ -1,4 +1,4 @@
-﻿#![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/python-logo.png "Python")
+﻿![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/python-logo.png "Python")
 
 **A linguagem Python**
 
@@ -53,7 +53,7 @@ Segue a nuvem gerada a partir do processamento.
 
 ![ ](https://github.com/ggdcdevel/TraballhoR1/blob/master/TagCloudTwitter.png "twitter_cloud_tag")
 
-**Evolução de posts - twitters**
+**Distribuição de Tweets**
 
 Para gerar alguns insights estatísticos utilizei o Google Sheets. Como eu tinha salvo os tweets em uma base de dados Mysql foi possível acessar essa base realizar alguns estudos sobre a base. Um estudo interessante que fiz é da porcentagem de Tweets por país. Se notarmos bem no gráfico os dois países em destaque são Estados Unidos e Australia. A australia aparece aqui porque Python também é uma espécie de cobra muito conhecida por lá e alguns tweets coletados eram referentes a serpente.
 
